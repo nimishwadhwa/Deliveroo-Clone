@@ -1,10 +1,8 @@
-import { View, Text } from "react-native";
-import React from "react";
+import React, { useEffect } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import * as Animatable from "react-native-animatable";
 import * as Progress from "react-native-progress";
 import { useNavigation } from "@react-navigation/native";
-import { useEffect } from "react";
 
 const PreparingOrderScreen = () => {
   const navigation = useNavigation();
@@ -28,7 +26,7 @@ const PreparingOrderScreen = () => {
         iterationCount={1}
         className="text-lg my-10 text-white font-bold text-center"
       >
-        Waiting for Restaurents to accept your order!
+        Waiting for Restaurent to accept your order!
       </Animatable.Text>
       <Progress.Circle size={60} indeterminate={true} color="white" />
     </SafeAreaView>

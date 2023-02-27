@@ -1,5 +1,5 @@
 import { View, Text, Image, TouchableOpacity, ScrollView } from "react-native";
-import React, { useLayoutEffect } from "react";
+import React, { useLayoutEffect, useEffect } from "react";
 import { useNavigation, useRoute } from "@react-navigation/native";
 import { urlFor } from "../sanity";
 import {
@@ -11,7 +11,6 @@ import {
 import { QuestionMarkCircleIcon } from "react-native-heroicons/outline";
 import DishRow from "./components/DishRow";
 import BasketIcon from "./components/BasketIcon";
-import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { setRestaurent } from "../features/restaurentSlice";
 
