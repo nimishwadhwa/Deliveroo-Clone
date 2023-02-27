@@ -67,7 +67,7 @@ const DeliveryScreen = () => {
           className="h-12 w-12 bg-gray-300 p-4 rounded-full ml-5 justify-center"
         />
         <View className="flex-1">
-          <Text className="text-lg">Ankit Kumar</Text>
+          <Text className="text-lg">Nimish Wadhwa</Text>
           <Text className="text-gray-400">Your Rider</Text>
         </View>
         <Text className="text-[#00ccbb] text-lg mr-5 font-bold">Call</Text>
